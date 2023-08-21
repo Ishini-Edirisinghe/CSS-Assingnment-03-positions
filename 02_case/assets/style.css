@@ -1,0 +1,52 @@
+header{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 50px;
+}
+main>aside>nav>ol{
+    list-style-type: none;
+}
+header>nav>ol{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header>nav>ol>li{
+    display: inline;
+    margin-right: 10px;
+}
+header>img{
+    margin-top: 20px;
+}
+main{
+    position: relative;
+}
+#sidebar{
+    position: absolute;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    background-color: #da8dda;
+}
+#content{
+    width: calc((100% - 200px));
+    top: 10px;
+    left: 201px;
+    position: relative;
+}
+section>div>img{
+    width: calc((100% - 10px) / 3);
+}
+footer{
+    position: relative;
+    background-color: gray;
+    height: 50px;
+}
+footer>p{
+    display: inline;
+    position: absolute;
+    left: 50%;
+}
