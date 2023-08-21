@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body>div{
+            width:1000px;
+            height: 500px;
+            border: 2px solid black;
+            display: grid;
+            /*  grid-template-columns: 1fr 1fr 1fr; !*fraction ->bagaya*!*/
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(3,1fr);
+        }
+        body>div>div{
+            border: 2px solid black;
+        }
+
+        body>div>div:first-child{
+            background: red;
+        }
+        body>div>div:nth-child(2){
+            background: green;
+        }
+        body>div>div:nth-child(3){
+            background: orangered;
+        }
+        body>div>div:nth-child(4){
+            background:purple ;
+        }
+        body>div>div:nth-child(5){
+            background: green;
+        }
+        body>div>div:nth-child(6){
+            background: lawngreen;
+        }
+        body>div>div:nth-child(7) {
+            background: darkturquoise;
+        }
+        body>div>div:nth-child(8){
+            background: cyan;
+        }
+        body>div>div:nth-child(9){
+            background:burlywood ;
+        }
+        body>div>div:nth-child(10){
+            background: cornflowerblue;
+        }
+        body>div>div:nth-child(11){
+            background: mediumpurple;
+        }
+        body>div>div:nth-child(12){
+            background:palevioletred ;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</body>
+</html>
